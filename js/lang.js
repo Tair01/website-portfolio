@@ -6,13 +6,6 @@ const langArr = {
         "kz": "Бауржан Тайырдың сайты",
         "ru": "Сайт Бауржана Таира",
     },
-    "header__title": {
-        "en": "Welcome to my website. I'm <em>Tair</em><br> a Computer Science student at Université Paris-Saclay.",
-        "fr": "Bienvenue sur mon site. Je m'appelle <em>Tair</em>, étudiant en informatique à l'Université Paris-Saclay.",
-        "kz": "Менің веб-сайтыма қош келдіңіз. Менің атым <em>Таир</em>, Париж-Саклай университетінің информатика ғылымының студентімін.",
-        "ru": "Добро пожаловать на мой сайт. Меня зовут <em>Таир</em>, я студент факультета компьютерных наук в Университете Париж-Сакле.",
-    },
-
     "header-text": {
         "en": "Passionate about technology and problem-solving, I specialize in software development and business process automationIn this webpage, you will be able to find all the information about me, my skills and my projects, as well as contact me.",
         "fr": "Passionné de technologie et de résolution de problèmes, je me spécialise dans le développement de logiciels et l'automatisation des processus d'affaires.Sur cette page Web, vous pourrez retrouver toutes les informations sur moi, mes compétences et mes projets, ainsi que me contacter.",
