@@ -80,10 +80,10 @@ const langArr = {
         "ru": "Универсальные навыки",
     },
     "title-2-text": {
-        "en": "Creativity, Teamwork skills, Adaptability, Ability to analyze problems and effectively seek ways to solve them, Thinking strategically and creatively, Working with large amounts of information, Pragmatic",
-        "fr": "Créativité, Capacité de travail en équipe, Adaptabilité, Capacité à analyser les problèmes et à rechercher efficacement des moyens de les résoudre, Pensée stratégique et créative, Travailler avec de grandes quantités d'informations, Pragmatisme",
-        "kz": "Креативтілік, Командамен жұмыс дағдылары, Бейімделу, Проблемаларды талдау және оларды тиімді шешу жолдарын іздеу, Стратегиялық және креативті ойлау, Ауқымды ақпаратпен жұмыс істеу, Прагматикалық",
-        "ru": "Креативность, Умение работать в команде, Адаптивность, Умение анализировать проблемы и эффективно искать пути их решения, Стратегическое и креативное мышление, Работа с большими объемами информации, Прагматичность",
+        "en": "Teamwork skills, Adaptability, Ability to analyze problems and effectively seek ways to solve them, Thinking strategically and creatively, Working with large amounts of information, Pragmatic",
+        "fr": "Capacité de travail en équipe, Adaptabilité, Capacité à analyser les problèmes et à rechercher efficacement des moyens de les résoudre, Pensée stratégique et créative, Travailler avec de grandes quantités d'informations, Pragmatisme",
+        "kz": "Командамен жұмыс дағдылары, Бейімделу, Проблемаларды талдау және оларды тиімді шешу жолдарын іздеу, Стратегиялық және креативті ойлау, Ауқымды ақпаратпен жұмыс істеу, Прагматикалық",
+        "ru": "Умение работать в команде, Адаптивность, Умение анализировать проблемы и эффективно искать пути их решения, Стратегическое и креативное мышление, Работа с большими объемами информации, Прагматичность",
     },
     /*    About page       */
     "title-1-1-1": {
