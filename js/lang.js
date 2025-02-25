@@ -7,7 +7,7 @@ const langArr = {
         "ru": "Сайт Бауржана Таира",
     },
     "header-text": {
-        "en": "Passionate about technology and problem-solving, I specialize in software development and business process automationIn this webpage, you will be able to find all the information about me, my skills and my projects, as well as contact me.",
+        "en": "Passionate about technology and problem-solving, I specialize in software development and business process automation.In this webpage, you will be able to find all the information about me, my skills and my projects, as well as contact me.",
         "fr": "Passionné de technologie et de résolution de problèmes, je me spécialise dans le développement de logiciels et l'automatisation des processus d'affaires.Sur cette page Web, vous pourrez retrouver toutes les informations sur moi, mes compétences et mes projets, ainsi que me contacter.",
         "kz": "Технологияға және мәселелерді шешуге құмармын, мен бағдарламалық жасақтаманы әзірлеуге және бизнес-процестерді автоматтандыруға маманданамын. Бұл веб-сайтта сіз мен туралы, менің дағдыларым және жобаларым туралы барлық ақпаратты таба аласыз, сонымен қатар менімен байланыса аласыз.",
         "ru": "Увлеченный технологиями и решением проблем, я специализируюсь на разработке программного обеспечения и автоматизации бизнес-процессов. На этой веб-странице вы сможете найти всю информацию обо мне, моих навыках и моих проектах, а также связаться со мной.",
