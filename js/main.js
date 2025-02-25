@@ -45,7 +45,7 @@ function changeLanguage() {
             elem.textContent = translation;
         }
     });
-    if (window.location.pathname.includes("index.html")) {
+
         if (document.querySelector('.header__title')) {
             let headerTitle = document.querySelector('.header__title');
             let lang = hash; // Текущий язык из URL
@@ -70,7 +70,7 @@ function changeLanguage() {
             }
         });
 
-    }
+    
     // Страница Skills
     if (window.location.pathname.includes("skills.html")) {
         let skillsTitle = document.getElementById('title-1-1');
