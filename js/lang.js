@@ -10,7 +10,7 @@ const langArr = {
         "en": "Welcome to my website. I'm <em>Tair</em><br> a Computer Science student at Université Paris-Saclay.",
         "fr": "Bienvenue sur mon site. Je m'appelle <em>Tair</em>, étudiant en informatique à l'Université Paris-Saclay.",
         "kz": "Менің веб-сайтыма қош келдіңіз. Менің атым <em>Таир</em>, Париж-Саклай университетінің информатика ғылымының студентімін.",
-        "ru": "Добро пожаловать на мой сайт. Меня зовут <em>Таир</em>, я студент факультета компьютерных наук в Университете Париж-Сакле."
+        "ru": "Добро пожаловать на мой сайт. Меня зовут <em>Таир</em>, я студент факультета компьютерных наук в Университете Париж-Сакле.",
     },
 
     "header-text": {
