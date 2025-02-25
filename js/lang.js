@@ -1,0 +1,155 @@
+const langArr = {
+    /*   The main page   */
+    "unit": {
+        "en": "Baurzhan Tair's website",
+        "fr": "Site de Baurzhan Tair",
+        "kz": "Бауржан Тайырдың сайты",
+        "ru": "Сайт Бауржана Таира",
+    },
+    "header-text": {
+        "en": "Passionate about technology and problem-solving, I specialize in software development and business process automation.In this webpage, you will be able to find all the information about me, my skills and my projects, as well as contact me.",
+        "fr": "Passionné de technologie et de résolution de problèmes, je me spécialise dans le développement de logiciels et l'automatisation des processus d'affaires.Sur cette page Web, vous pourrez retrouver toutes les informations sur moi, mes compétences et mes projets, ainsi que me contacter.",
+        "kz": "Технологиялар және мәселелерді шешуге қызығушылық білдіре отырып, мен бағдарламалық қамсыздандыруды әзірлеуге және бизнес-процестерді автоматтандыруға маманданамын. Бұл веб-сайтта Сіз мен туралы, менің дағдыларым және жобаларым туралы барлық ақпаратты таба аласыз, сондай-ақ менімен байланыса аласыз.",
+        "ru": "Увлеченный технологиями и решением проблем, я специализируюсь на разработке программного обеспечения и автоматизации бизнес-процессов. На этой веб-странице Вы сможете найти всю информацию обо мне, моих навыках и моих проектах, а также связаться со мной.",
+    },
+    "btn": {
+        "en": "Download CV",
+        "fr": "Télécharger le CV",
+        "kz": "Түйіндемені жүктеп алыңыз",
+        "ru": "Скачать резюме",
+    },
+    "title-1": {
+        "en": "Projects",
+        "fr": "Projets",
+        "kz": "Жобалар",
+        "ru": "Проекты",
+    },
+    "name1": {
+        "en": "Furious Fire Game",
+        "fr": "Jeu Feu Furieux",
+        "kz": "Қаһарлы өрт ойыны",
+        "ru": "Игра Яростный огонь",
+    },
+    "name2": {
+        "en": "Colt Express Game",
+        "fr": "Jeu Colt Express",
+        "kz": "Colt Express ойыны",
+        "ru": "Игра Кольт Экспресс",
+    },
+    "name3": {
+        "en": "Chess Game",
+        "fr": "Jeu d'échecs",
+        "kz": "Шахмат ойыны",
+        "ru": "Игра в шахматы",
+    },
+    "name4": {
+        "en": "Paysage in Processing language",
+        "fr": "Paysage dans le langage Processing",
+        "kz": "Processing тіліндегі ландшафт",
+        "ru": "Пейзаж на языке Processing",
+    },
+    "name5": {
+        "en": "Computer Network TCP/UDP",
+        "fr": "Réseau informatique TCP/UDP",
+        "kz": "Компьютерлік желі TCP/UDP",
+        "ru": "Компьютерная сеть TCP/UDP",
+    },
+    "name6": {
+        "en": "Data science: Oceanographic data and more",
+        "fr": "Science des données : données océanographiques et ainsi de suite",
+        "kz": "Деректер туралы ғылым: Океанографиялық деректер және т.б",
+        "ru": "Наука о данных: океанографические данные и многое другое",
+    },
+    /*    Page Skills   */
+    "title-1-1": {
+        "en": "Skills",
+        "fr": "Compétences",
+        "kz": "Дағдылар",
+        "ru": "Навыки",
+    },
+    "title-2-1": {
+        "en": "Hard skills",
+        "fr": "Compétences techniques",
+        "kz": "Кәсіби дағдылар",
+        "ru": "Профессиональные навыки",
+    },
+    "title-2-2": {
+        "en": "Soft skills",
+        "fr": "Compétences universelles",
+        "kz": "Әмбебап дағдылар",
+        "ru": "Универсальные навыки",
+    },
+    "title-2-text": {
+        "en": "Creativity, Teamwork skills, Adaptability, Ability to analyze problems and effectively seek ways to solve them, Thinking strategically and creatively, Working with large amounts of information, Pragmatic",
+        "fr": "Créativité, Capacité de travail en équipe, Adaptabilité, Capacité à analyser les problèmes et à rechercher efficacement des moyens de les résoudre, Pensée stratégique et créative, Travailler avec de grandes quantités d'informations, Pragmatisme",
+        "kz": "Креативтілік, Командамен жұмыс дағдылары, Бейімделу, Проблемаларды талдау және оларды тиімді шешу жолдарын іздеу, Стратегиялық және креативті ойлау, Ауқымды ақпаратпен жұмыс істеу, Прагматикалық",
+        "ru": "Креативность, Умение работать в команде, Адаптивность, Умение анализировать проблемы и эффективно искать пути их решения, Стратегическое и креативное мышление, Работа с большими объемами информации, Прагматичность",
+    },
+    /*    About page       */
+    "title-1-1-1": {
+        "en": "About me",
+        "fr": "À propos de moi",
+        "kz": "Мен туралы",
+        "ru": "Обо мне",
+    },
+    "title-2-2-text1": {
+        "en": "Hello! My name is Tair, and I am a Computer Science student at Université Paris-Saclay. I am also a developer and fluent in four languages: Kazakh, Russian, French, and English. My goal is to strengthen Franco-Kazakh relations and contribute to the development of my country",
+        "fr": "Salut! Je m'appelle Tair et je suis étudiant en informatique à l'Université Paris-Saclay. Je suis également développeur et parle couramment quatre langues : le kazakh, le russe, le français et l'anglais. Mon objectif est de renforcer les relations franco-kazakhes et de contribuer au développement de mon pays.",
+        "kz": "Сәлем! Менің атым Таир, мен Париж-Саклай университетінің информатика факультетінің студентімін. Мен бағдарламалық қамсыздандырудың әзірлеушісімін, төрт тілді еркін меңгердім: қазақ, орыс, француз және ағылшын тілдері. Менің мақсатым – француз-қазақ қарым-қатынастарын нығайту және еліміздің IT саласын дамытуға өз үлесімді қосу.",
+        "ru": "Привет! Меня зовут Таир, я студент факультета компьютерных наук в Университете Париж-Сакле. Я разработчик ПО и свободно владею четырьмя языками: казахским, русским, французским и английским. Моя цель — укрепить франко-казахские отношения и внести вклад в развитие IT сферы моей страны.",
+    },
+    "title-2-2-2": {
+        "en": "Education",
+        "fr": "Éducation",
+        "kz": "Білім",
+        "ru": "Образование",
+    },
+    "title-2-2-text2": {
+        "en": "I am studying at the best university in the world, ranked 13th in the Shanghai Ranking and the top university in France. I constantly strive for self-improvement by taking courses in Python and Java. In a short period, I successfully adapted and excelled in the SimBASE system administration and basics of configuration of business processes test. I also hold an international DELF B2 diploma in French and a Linguaskill certificate in English, with a C1 score in reading and B1 in listening. You'll be able to see my certificates on my GitHub in the Certificates section.",
+        "fr": "J'étudie dans la meilleure université du monde, classée 13ème au classement de Shanghai et première université de France. Je m'efforce constamment de m'améliorer en suivant des cours de Python et de Java. En peu de temps, j'ai réussi à m'adapter et à exceller au test d'administration système SimBASE et aux bases de la configuration des processus métier. Je suis également titulaire d'un diplôme international DELF B2 en français et d'un certificat Linguaskill en anglais, avec un score C1 en lecture et B1 en écoute. Vous pourrez voir mes certificats sur mon GitHub dans la section Certificats.",
+        "kz": "Мен әлемнің Шанхай рейтингінде 13-ші орын алатын және Францияның ең үздік университетінде оқимын. Мен Python және Java тілдерінде курстар оқи отырып әрдайым өз-өзімді жетілдіруге талпынамын. Қысқа уақыт ішінде мен SimBASE жүйесін басқару және бизнес-процестерді конфигурациялау негіздері тестінде сәтті бейімделіп, табысты болдым. Сондай-ақ, менде француз тілінен халықаралық DELF B2 дипломы мен ағылшын тілінен оқылымнан С1 және тыңдалым бойынша В1 деңгейін алған Linguaskill сертификатына елендім. Сіз менің GitHub сайтындағы сертификаттарымды Сертификаттар бөлімінде көре аласыз.",
+        "ru": "Я учусь в лучшем университете мира, занимающем 13-е место в Шанхайском рейтинге и являющемся лучшим университетом Франции. Я постоянно стремлюсь к самосовершенствованию, проходя курсы по Python и Java. За короткий период я ​​успешно адаптировался и преуспел в тесте по системному администрированию SimBASE и основам настройки бизнес-процессов. Также у меня есть международный диплом DELF B2 по французскому языку и сертификат Linguaskill по английскому языку с оценкой C1 по чтению и B1 по аудированию. Мои сертификаты вы сможете увидеть на моем GitHub в разделе Сертификаты.",
+    },
+    "title-3-3-3": {
+        "en": "Professional Experience",
+        "fr": "Expérience professionnelle",
+        "kz": "Кәсіби тәжірибе",
+        "ru": "Профессиональный опыт",
+    },
+    "title-3-3-text3": {
+        "en": "I worked at Simourg as a Business Process Customizer in the Simbase system. My main responsibilities included developing, optimizing, and automating new and existing business processes to enhance the company's efficiency and transparency. I actively collaborated with development and analysis teams, utilizing BPMN 2.0 diagrams for process design. Additionally, I gathered requirements from analysts, conducted business needs analysis to address specific organizational challenges, and participated in testing, implementation, support, and improvement of automated processes,",
+        "fr": "J'ai travaillé chez Simourg en tant que Business Process Customizer dans le système Simbase. Mes principales responsabilités comprenaient le développement, l'optimisation et l'automatisation de processus commerciaux nouveaux et existants pour améliorer l'efficacité et la transparence de l'entreprise. J'ai collaboré activement avec les équipes de développement et d'analyse, en utilisant des diagrammes BPMN 2.0 pour la conception des processus. De plus, j'ai recueilli les exigences des analystes, effectué des analyses des besoins commerciaux pour relever des défis organisationnels spécifiques et participé aux tests, à la mise en œuvre, au support et à l'amélioration des processus automatisés,",
+        "kz": "Мен Simourg компаниясының Simbase жүйесінде бизнес-процестерді реттеуші ретінде жұмыс істедім. Менің негізгі міндеттеріме компания қызметінің тиімділігі мен ашықтығын арттыру үшін жаңа және бар бизнес-процестерді әзірлеу, оңтайландыру және автоматтандыру жатады. Мен процесстерді әзірлеу үшін BPMN 2.0 диаграммаларын пайдалана отырып, әзірлеу және талдау командаларымен белсенді жұмыс жасадым. Сонымен қатар, мен талдаушылардан қойған талаптарын ескере отырып, нақты ұйымдастырушылық міндеттерді шешу үшін бизнес қажеттіліктеріндің талдауын жүргіздім және автоматтандырылған процестерді тестілеуге,оларды енгізуге, жұмыс жағдайын ұстап тұруға және жақсартуға қатыстым,",
+        "ru": "Я работал в компании Simourg в качестве настройщика бизнес-процессов в системе Simbase. В мои основные обязанности входили разработку, оптимизацию и автоматизацию новых и существующих бизнес-процессов для повышения эффективности и прозрачности деятельности компании. Я активно сотрудничал с командами разработки и анализа, используя диаграммы BPMN 2.0 для проектирования процессов. Кроме того, я собирал требования от аналитиков, проводил анализ бизнес-потребностей для решения конкретных организационных задач и участвовал в тестировании, внедрении, поддержке и улучшении автоматизированных процессов,",
+    },
+    "title-3-3-text3bis": {
+        "en": "dream team",
+        "fr": "équipe de rêve",
+        "kz": "арман командасы",
+        "ru": "команда мечты",
+    },
+    "title-3-3-text3bis1": {
+        "en": "I also worked as a French language teacher for beginners (A1 level).Link to the video about ",
+        "fr": "J'ai également travaillé comme professeur de français pour débutants (niveau A1).Lien vers la vidéo sur",
+        "kz": "Соынмен бірге жаңадан оқып-үйренетіндерге арналған француз тілі мұғалімі болып жұмыс істедім. Француз тілі курстары туралы",
+        "ru": "Я также работал преподавателем французского языка для начинающих (уровень А1).Ссылка на видео о",
+    },
+    "title-3-3-text3bis2": {
+        "en": "French courses",
+        "fr": "Cours de français",
+        "kz": "сілтеме",
+        "ru": "Курсы французского языка",
+    },
+    "title-4-4-4": {
+        "en": "Interests & Hobbies",
+        "fr": "Intérêts & loisirs",
+        "kz": "Қызығушылықтар & хоббилер",
+        "ru": "Интересы & хобби",
+    },
+    "title-4-4-text4": {
+        "en": "I have traveled to over seven countries and lived in two different ones. My first trip to France in 2009 marked the beginning of my international journey, where I studied in kindergarten and later attended college. In my free time, I enjoy alpine skiing, table tennis, and soccer. I am also deeply passionate about literature and continuous self-education.",
+        "fr": "J'ai voyagé dans plus de sept pays et vécu dans deux pays différents. Mon premier voyage en France en 2009 a marqué le début de mon parcours international, où j'ai étudié à la maternelle et plus tard à l'université. Pendant mon temps libre, j'aime le ski alpin, le tennis de table et le football. Je suis également profondément passionnée par la littérature et l'auto-éducation continue.",
+        "kz": "Мен әлемнің жеті елінде болдым, оның ішінде екі елде өмір сүрдім. 2009 жылы Францияға жасаған алғашқы сапарым менің халықаралық саяхатымның басы болды, онда мен балабақшада, алғашқы мектепте, кейін колледжде де оқыдым. Бос уақытымда шаңғы, үстел теннисі мен футболды ұнатамын. Кітап оқығанды жақсы көремін және өз-өзімді дамытып отырамын.",
+        "ru": "Я побывал в более чем семи странах и жил в двух разных. Моя первая поездка во Францию ​​в 2009 году ознаменовала начало моего международного путешествия, где я училась в детском саду, а затем поступила в колледж. В свободное время я увлекаюсь горными лыжами, настольным теннисом и футболом. Я также глубоко увлечен литературой и постоянным самообразованием.",
+    },
+};
