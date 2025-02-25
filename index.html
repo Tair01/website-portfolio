@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baurzhan Tair's website</title>
+    <link rel="icon" href="img/programmer.png" type="image/png">
+    <!--<script>
+        fetch('php/record_ips.php')
+            .then(response => response.text())
+            .then(data => console.log(data))
+            .catch(error => console.error('Ошибка:', error));
+    </script> -->
+    <link id="main-style" rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>Hello</strong> World</a>
+                <select class="change-lang">
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                    <option value="kz">KZ</option>
+                    <option value="ru">RU</option>
+                </select>
+                <button class="dark-mode-btn">
+                    <img src="img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-list__item" id="nav1">
+                        <a href="./index.html" class="nav-list__link nav-list__link--active" data-lang-en="Projects"
+                            data-lang-fr="Projets" data-lang-kz="Жобалар" data-lang-ru="Проекты">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="nav-list__item" id="nav2">
+                        <a href="./skills.html" class="nav-list__link" data-lang-en="Skills" data-lang-fr="Aptitudes"
+                            data-lang-kz="Дағдылар" data-lang-ru="Навыки">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav-list__item" id="nav3">
+                        <a href="./about.html" class="nav-list__link" data-lang-en="About" data-lang-fr="À propos"
+                            data-lang-kz="Мен туралы" data-lang-ru="Обо мне">
+                            About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header__wrapper">
+            <h1 class="header__title" data-lang-en="Welcome to my website. I'm Tair
+                 a Computer Science student at Université Paris-Saclay."
+                data-lang-fr="Bienvenue sur mon site. Je m'appelle Tair, étudiant en informatique à l'Université Paris-Saclay."
+                data-lang-kz=" Менің веб-сайтыма қош келдіңіз. Менің атым Таир, Париж-Саклай университетінің
+                информатика ғылымының студентімін." data-lang-ru="Добро пожаловать на мой сайт. Меня зовут Таир, я студент факультета компьютерных
+                наук в Университете Париж-Сакле.">
+            </h1>
+            <div class="header-text">
+                <p>Passionate about technology and problem-solving, I specialize in software development
+                    and
+                    business
+                    process automationIn this webpage, you will be able to find all the information about me, my
+                    skills
+                    and
+                    my projects, as well as contact me.</p><br>
+            </div>
+            <br><a href="img/CV 2024-2025.pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+    </header>
+
+
+    <main class="section">
+        <div class="container">
+            <h2 class="title-1" id="title-1">Projects</h2>
+            <ul class="projeсts">
+                <li class="project">
+                    <a href="https://github.com/Tair01/Feu-furieux" target="_blank">
+                        <img src="img/projects/01.jpg" alt="Project img" class="project__img" loading="lazy">
+                        <h3 class="project__title" id="name1">Furious Fire Game</h3>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/Tair01/Colt-Express" target="_blank">
+                        <img src="img/projects/02.jpg" alt="Project img" class="project__img" loading="lazy">
+                        <h3 class="project__title" id="name2">Colt Express Game</h3>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/Tair01/Echecs">
+                        <img src="img/projects/03.jpg" alt="Project img" class="project__img" loading="lazy">
+                        <h3 class="project__title" id="name3">Chess Game</h3>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/Tair01/Processing/tree/main/Paysage">
+                        <img src="img/projects/04.jpg" alt="Project img" class="project__img" loading="lazy">
+                        <h3 class="project__title" id="name4">Paysage in Processing language</h3>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/Tair01/Reseau">
+                        <img src="img/projects/05.jpg" alt="Project img" class="project__img" loading="lazy">
+                        <h3 class="project__title" id="name5">Computer Network TCP/UDP</h3>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="https://github.com/Tair01/Data_science">
+                        <img src="img/projects/06.jpg" alt="Project img" class="project__img" loading="lazy">
+                        <h3 class="project__title" id="name6">Data science: Oceanographic data and more</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a
+                            href="https://www.instagram.com/tbaurzh?igsh=MXMwMjc5bmJyNmhnYQ%3D%3D&utm_source=qr"
+                            target="_blank"><img src="./img/icons/instagram.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://wa.me/+77475324696" target="_blank"><img
+                                src="./img/icons/whatsapp.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://t.me/tairr1" target="_blank"><img
+                                src="./img/icons/telegram.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://discordapp.com/users/848159576511086602/"
+                            target="_blank"><img src="./img/icons/discord.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://github.com/Tair01" target="_blank"><img
+                                src="./img/icons/gitHub.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://www.linkedin.com/in/tair-baurzhan-11013a30a/"
+                            target="_blank"><img src="./img/icons/linkedIn.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p><i class="fas fa-phone-alt"></i> +33672971711<img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/800px-Flag_of_France.svg.png"
+                            alt="French Flag"
+                            style="width: 15px; height: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        +77475324696
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/800px-Flag_of_Kazakhstan.svg.png"
+                            alt="Kazakh Flag" style="width: 15px; height: 15px;">
+                    </p>
+                    <p><i class="fas fa-envelope"></i> btair04@gmail.com
+                        &nbsp;&nbsp;&nbsp;&nbsp;tair.baurzhan@etu-upsaclay.fr</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;©
+                        2025 Tair Baurzhan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
+
+</html>
